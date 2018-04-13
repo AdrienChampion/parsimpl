@@ -1,0 +1,7 @@
+[package]
+name = "parsimpl"
+version = "0.1.0"
+authors = ["AdrienChampion <adrien.champion@email.com>"]
+
+[dependencies]
+regex = "*"
