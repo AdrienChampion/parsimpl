@@ -149,7 +149,7 @@ impl<'s> Parser<'s> {
   /// # Examples
   ///
   /// ```rust
-  /// use parsimpl::Parser ;
+  /// use parsimple::Parser ;
   /// let mut parser = Parser::new("   blah  end", 0) ;
   /// parser.ws() ;
   /// assert_eq! { parser.rest(), "blah  end" }
@@ -174,7 +174,7 @@ impl<'s> Parser<'s> {
   /// # Examples
   ///
   /// ```rust
-  /// use parsimpl::Parser ;
+  /// use parsimple::Parser ;
   /// let mut parser = Parser::new("   blah  end", 0) ;
   /// parser.ws() ;
   /// assert_eq! { parser.rest(), "blah  end" }
@@ -220,7 +220,7 @@ impl<'s> Parser<'s> {
   /// # Examples
   ///
   /// ```rust
-  /// use parsimpl::{ Parser, Regex } ;
+  /// use parsimple::{ Parser, Regex } ;
   ///
   /// let mut parser = Parser::new("   blah  end", 0) ;
   /// parser.ws() ;
@@ -254,7 +254,7 @@ impl<'s> Parser<'s> {
   /// # Examples
   ///
   /// ```rust
-  /// use parsimpl::{ Parser, Regex } ;
+  /// use parsimple::{ Parser, Regex } ;
   ///
   /// let mut parser = Parser::new("   blah  end", 0) ;
   /// parser.ws() ;
